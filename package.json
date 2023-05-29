@@ -2,17 +2,19 @@
   "dependencies": {
     "bootstrap": "^5.2.3",
     "git": "^0.1.5",
-    "loadash": "^1.0.0",
     "lodash": "^4.17.21"
   },
   "name": "random_course",
   "version": "1.0.0",
   "main": "1-intro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "nodemon app.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": ""
+  "description": "",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  }
 }
